@@ -1,0 +1,20 @@
+.container{
+    background-color: black;
+    color: blue;
+    height: 700px;
+}
+
+@media only screen and (max-width: 1500px) {
+    body{
+        background-color: aquamarine;
+        color: navy;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: rgb(185,36,);
+        color: yellow;
+    }
+}
