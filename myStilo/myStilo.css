@@ -1,20 +1,44 @@
-.container{
+body{
     background-color: black;
     color: blue;
     height: 700px;
 }
 
-@media only screen and (max-width: 1500px) {
-    body{
-        background-color: aquamarine;
-        color: navy;
-    }
+img{
+    max-width: 100%;
+    max-height: 100%;
+
 }
 
+.marco{
+    border: 1px solid orchid;
 
-@media only screen and (max-width: 600px){
-    body{
-        background-color: rgb(185,36,);
-        color: yellow;
-    }
+}
+
+.menu, .footer{
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(73, 71, 71);
+}
+.nav-item{
+    background-color: rgb(14, 14 ,15;
+    color: antiquewhite;
+    font-size: 25px;
+    margin: 5px;
+    padding: 3px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    font-family: Tahoma;
+    color:blueviolet
+}
+
+.nav-item:hover, a:hover{
+    background-color: white;
+    color: black;
 }
